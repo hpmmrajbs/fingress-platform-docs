@@ -38,8 +38,7 @@ markmap:
 
 
 ## reference applications
-
-    - customer portal
+   - customer portal
     - operations
     - mobile app
       - iOS
