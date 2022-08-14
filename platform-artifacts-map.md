@@ -1,6 +1,6 @@
 ---
 markmap:
-  maxWidth: 300
+  maxWidth: 500
 ---
 
 # fingress platform
@@ -8,36 +8,28 @@ markmap:
 ## libraries
 
 - backend 
-  - framework libraies
+  - framework 
     - domain
     - data
     - service
-  - service libraries
+  - service 
     - data-service-library
     - auth-service-library
     - process-service-library
     - job-library
-- frontend    
-  - libraries
-    - components library
+- web    
+  - components
+- mobile    
+  - components 
     
 ## services
+ - data-service
+ - auth-service
+ - process-service
+ - cache-service
+ - jobs-service
 
-- backend
-  - services
-    - data-service
-    - auth-service
-    - process-service
-    - cache-service
-    - jobs-service
-
-- frontend
-  - applications
-    - customer portal
-    - operations
-
-
-## reference applications
+## web applications
    - customer portal
     - operations
     - mobile app
@@ -66,4 +58,4 @@ markmap:
     - operations
 
 - extensions
-  - extension library
+  - customization library
